@@ -16,7 +16,7 @@ WooCommerce integrácia služby <a href="http://www.superfaktura.sk/api/">SuperF
 
 You can read more about SuperFaktúra at [superfaktura.sk](http://www.superfaktura.sk/)
 
-**This plugin is third-party stuff and it isn't directly associated with Trust Pay, a.s. or officially supported by their developers.**
+**This plugin is third-party stuff and it isn't directly associated with superfaktura.sk, s.r.o. or officially supported by their developers.**
 
 Viac platobných brán a Woocommerce rozšírení nájdete na [PlatobneBrany.sk](http://platobnebrany.sk/)
 

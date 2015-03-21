@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce SuperFaktúra\n"
+"POT-Creation-Date: 2014-04-02 16:54+0100\n"
+"PO-Revision-Date: 2014-04-02 16:56+0100\n"
+"Last-Translator: Ján Bočínec <johnnypea@wp.sk>\n"
+"Language-Team: Ján Bočínec <johnnypea@wp.sk>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-wc-superfaktura.php:349
+msgid "Buy as Business client"
+msgstr "Fakturovať na firmu"
+
+#: class-wc-superfaktura.php:364
+msgid "ID #"
+msgstr "IČO"
+
+#: class-wc-superfaktura.php:374
+msgid "VAT #"
+msgstr "IČ DPH"
+
+#: class-wc-superfaktura.php:384
+msgid "TAX ID #"
+msgstr "DIČ"
+
+#: class-wc-superfaktura.php:408
+msgid "Authorization"
+msgstr ""
+
+#: class-wc-superfaktura.php:414
+msgid "Account Email"
+msgstr ""
+
+#: class-wc-superfaktura.php:421
+msgid "API Key"
+msgstr ""
+
+#: class-wc-superfaktura.php:432
+msgid "Invoice Options"
+msgstr ""
+
+#: class-wc-superfaktura.php:438
+msgid "Custom invoice numbering"
+msgstr ""
+
+#: class-wc-superfaktura.php:444
+msgid "Invoice Nr."
+msgstr ""
+
+#: class-wc-superfaktura.php:445 class-wc-superfaktura.php:452
+#, php-format
+msgid "Available Tags: %s"
+msgstr ""
+
+#: class-wc-superfaktura.php:451
+msgid "Proforma Invoice Nr."
+msgstr ""
+
+#: class-wc-superfaktura.php:458
+msgid "Current Invoice Number"
+msgstr ""
+
+#: class-wc-superfaktura.php:469
+msgid "Current Proforma Invoice Number"
+msgstr ""
+
+#: class-wc-superfaktura.php:480
+msgid "Number of digits for [COUNT]"
+msgstr ""
+
+#: class-wc-superfaktura.php:495
+msgid "Additional Invoice Fields"
+msgstr ""
+
+#: class-wc-superfaktura.php:501
+msgid "Add field ID #"
+msgstr ""
+
+#: class-wc-superfaktura.php:508
+msgid "Add field VAT #"
+msgstr ""
+
+#: class-wc-superfaktura.php:515
+msgid "Add field TAX ID #"
+msgstr ""
+
+#: class-wc-superfaktura.php:522
+msgid "Checkout fields required"
+msgstr ""
+
+#: class-wc-superfaktura.php:528
+msgid "Issued by"
+msgstr ""
+
+#: class-wc-superfaktura.php:533
+msgid "Issued by Email"
+msgstr ""
+
+#: class-wc-superfaktura.php:538
+msgid "Issued by Phone"
+msgstr ""
+
+#: class-wc-superfaktura.php:554
+msgid "Don't generate"
+msgstr ""
+
+#: class-wc-superfaktura.php:561
+msgid "Invoice Creation"
+msgstr ""
+
+#: class-wc-superfaktura.php:584
+msgid "Proforma Invoice Creation"
+msgstr ""
+
+#: class-wc-superfaktura.php:607
+msgid "Payment Methods"
+msgstr ""
+
+#: class-wc-superfaktura.php:614 class-wc-superfaktura.php:654
+msgid "Don't use"
+msgstr ""
+
+#: class-wc-superfaktura.php:615
+msgid "Bankový prevod"
+msgstr ""
+
+#: class-wc-superfaktura.php:616
+msgid "Hotovosť"
+msgstr ""
+
+#: class-wc-superfaktura.php:617
+msgid "Paypal"
+msgstr ""
+
+#: class-wc-superfaktura.php:618
+msgid "Trustpay"
+msgstr ""
+
+#: class-wc-superfaktura.php:619
+msgid "Kreditná karta"
+msgstr ""
+
+#: class-wc-superfaktura.php:620
+msgid "Debetná karta"
+msgstr ""
+
+#: class-wc-superfaktura.php:621
+msgid "Dobierka"
+msgstr ""
+
+#: class-wc-superfaktura.php:622
+msgid "Vzajomný zápočet"
+msgstr ""
+
+#: class-wc-superfaktura.php:647
+msgid "Shipping Methods"
+msgstr ""
+
+#: class-wc-superfaktura.php:655
+msgid "Poštou"
+msgstr ""
+
+#: class-wc-superfaktura.php:656
+msgid "Kuriérom"
+msgstr ""
+
+#: class-wc-superfaktura.php:657
+msgid "Osobný odber"
+msgstr ""
+
+#: class-wc-superfaktura.php:658
+msgid "Nákladná doprava"
+msgstr ""
+
+#: class-wc-superfaktura.php:691
+msgid "SuperFaktúra"
+msgstr ""
+
+#: class-wc-superfaktura.php:719
+msgid "Invoices"
+msgstr ""
+
+#: class-wc-superfaktura.php:727
+msgid "View Generated Invoices"
+msgstr ""
+
+#: class-wc-superfaktura.php:729
+msgid "Proforma"
+msgstr ""
+
+#: class-wc-superfaktura.php:732
+msgid "Invoice"
+msgstr ""
+
+#: class-wc-superfaktura.php:735
+msgid "No invoice was generated"
+msgstr ""

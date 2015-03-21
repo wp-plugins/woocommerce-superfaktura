@@ -2,25 +2,27 @@
 Contributors: webikon, johnnypea
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZQDNE7TP3XT36
 Tags: superfaktura, invoice, faktura, woocommerce
-Requires at least: 3.8
-Tested up to: 4.0
+Requires at least: 4.0
+Tested up to: 4.1.1
 Stable tag: 1.4.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-SuperFaktúra.sk service integration for WooCommerce.
+Connect your WooCommerce eShop with online invoicing system SuperFaktura.
 
 == Description ==
 
-WooCommerce integrácia služby <a href="http://www.superfaktura.sk/api/">SuperFaktúra.sk</a>
+SuperFaktura extension for WooCommerce enables you to create invoices using third-party online app SuperFaktura. 
 
-You can read more about SuperFaktúra at [superfaktura.sk](http://www.superfaktura.sk/)
+SuperFaktura is an online invoicing system for small business owners available in Slovakia ([superfaktura.sk](http://www.superfaktura.sk/)) and Czech Republic ([superfaktura.cz](http://www.superfaktura.cz/)). 
 
-**This plugin is third-party stuff and it isn't directly associated with superfaktura.sk, s.r.o. or officially supported by their developers.**
+You can read more about SuperFaktura API integration at [superfaktura.sk/api](http://www.superfaktura.sk/api/)
 
-Viac platobných brán a Woocommerce rozšírení nájdete na [PlatobneBrany.sk](http://platobnebrany.sk/)
+**This plugin isn’t directy associated with superfaktura.sk, s.r.o. or with superfaktura cz, s.r.o. or oficially supported by their developers.**
 
-Thanks the [Slovak WordPress community](http://wp.sk/) and [Webikon](http://www.webikon.sk/) for the support. For more information about me check out my [personal page](http://bocinec.sk/).
+Created by [Ján Bočínec](http://bocinec.sk/) with the support of [Slovak WordPress community](http://wp.sk/) and [WordPress agency Webikon](http://www.webikon.sk/). 
+
+Find more Woocommerce extensions (payment gateways, invoicing…) here [PlatobneBrany.sk](http://platobnebrany.sk/)
 
 == Installation ==
 
@@ -28,10 +30,17 @@ Thanks the [Slovak WordPress community](http://wp.sk/) and [Webikon](http://www.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Screenshots ==
-
+Coming soon.
 
 == Frequently Asked Questions ==
 
+= Invoice is NOT created automatically =
+
+Check the settings in WooCommerce -> Settings -> SuperFaktura.
+
+= Invoice is marked as paid =
+
+Status of the payment is related to Order status.
 
 == Changelog ==
 
@@ -113,6 +122,3 @@ Thanks the [Slovak WordPress community](http://wp.sk/) and [Webikon](http://www.
 
 = 1.0.0 =
 Prvotné vydanie.
-
-== Documentation ==
-

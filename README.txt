@@ -1,7 +1,7 @@
-=== WooCommerce SuperFaktúra ===
+=== WooCommerce SuperFaktura ===
 Contributors: webikon, johnnypea
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZQDNE7TP3XT36
-Tags: superfaktura, invoice, faktura, woocommerce
+Tags: superfaktura, invoice, faktura, proforma, woocommerce
 Requires at least: 4.0
 Tested up to: 4.1.1
 Stable tag: 1.4.11
@@ -12,35 +12,54 @@ Connect your WooCommerce eShop with online invoicing system SuperFaktura.
 
 == Description ==
 
-SuperFaktura extension for WooCommerce enables you to create invoices using third-party online app SuperFaktura. 
+SuperFaktura extension for WooCommerce enables you to create invoices using third-party online app SuperFaktura.  
 
-SuperFaktura is an online invoicing system for small business owners available in Slovakia ([superfaktura.sk](http://www.superfaktura.sk/)) and Czech Republic ([superfaktura.cz](http://www.superfaktura.cz/)). 
+SuperFaktura is an online invoicing system for small business owners available in Slovakia ([superfaktura.sk](http://www.superfaktura.sk/)) and Czech Republic ([superfaktura.cz](http://www.superfaktura.cz/)).
 
-You can read more about SuperFaktura API integration at [superfaktura.sk/api](http://www.superfaktura.sk/api/)
+Main features of WooCommerce Superfaktura include:
 
-**This plugin isn’t directy associated with superfaktura.sk, s.r.o. or with superfaktura cz, s.r.o. or oficially supported by their developers.**
+* Automatically create invoices in SuperFaktura.
+* Add fields for invoice details to WooCommerce Checkout form.
+* Link to the invoice is added to 
+	* Customer notification email sent by WooCommerce
+	* Order detail
+	* WooCommerce My Account page
+* Set your own rules, when proforma or real invoice should be generated. Want to send proforma invoice on order creation and real invoice after payment? We got that covered.
+* Custom invoice numbering. 
+
+This plugin is not directly associated with superfaktura.sk, s.r.o. or with superfaktura cz, s.r.o. or oficially supported by their developers.
 
 Created by [Ján Bočínec](http://bocinec.sk/) with the support of [Slovak WordPress community](http://wp.sk/) and [WordPress agency Webikon](http://www.webikon.sk/). 
 
-Find more Woocommerce extensions (payment gateways, invoicing…) here [PlatobneBrany.sk](http://platobnebrany.sk/)
+For priority support and more Woocommerce extensions (payment gateways, invoicing…) check [PlatobneBrany.sk](http://platobnebrany.sk/)
 
 == Installation ==
 
-1. Upload the entire `superfaktura` folder to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
+1. Upload the entire SuperFaktura folder *woocommerce-superfaktura* to the /wp-content/plugins/ directory (or use WordPress native installer in Plugins -> Add New Plugin). And activate the plugin through the 'Plugins' menu in WordPress.
+2. Visit your SuperFaktura account and get an API key
+3. Set your SuperFaktura Account Email and API key in *WooCommerce -> Settings -> SuperFaktura*
 
 == Screenshots ==
 Coming soon.
 
 == Frequently Asked Questions ==
 
-= Invoice is NOT created automatically =
+= Invoice is not created automatically =
 
-Check the settings in WooCommerce -> Settings -> SuperFaktura.
+Check the settings in *WooCommerce -> Settings -> SuperFaktura*
+You should fill your Account Email, API key and set the Order status in which you would like to create the invoice.
 
 = Invoice is marked as paid =
 
-Status of the payment is related to Order status.
+Status of the payment is related to Order status. When an invoice is created with the status “On-Hold”, it will not be marked as paid. When an invoice is created with the status “Completed”, it will be marked as paid.
+
+= The plugin stopped working and I don’t know why! =
+
+This usually happens when you change your login email address. The email address in *WooCommerce -> Settings -> SuperFaktura* must be the same as the one you use to log in to SuperFaktura.
+
+= Where can I find more information about SuperFaktura API? =
+
+You can read more about SuperFaktura API integration at [superfaktura.sk/api](http://www.superfaktura.sk/api/)
 
 == Changelog ==
 

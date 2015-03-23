@@ -319,7 +319,7 @@ class WC_SuperFaktura {
 				'quantity'    => $item['qty'],
 				'sku'		  => $product->get_sku(),
 				'unit'        => 'ks',
-				'unit_price'  => $order->get_item_subtotal($item),
+				'unit_price'  => $order->get_item_subtotal($item,false,false),
 				'tax'         => round($order->get_item_tax($item) / $order->get_item_total($item) * 100)
 			);
 

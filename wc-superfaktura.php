@@ -10,7 +10,7 @@
  * Plugin Name: WooCommerce SuperFaktúra
  * Plugin URI:  http://www.platobnebrany.sk/
  * Description: WooCommerce integrácia služby <a href="http://www.superfaktura.sk/api/">SuperFaktúra.sk</a> Máte s modulom technický problém? Napíšte nám na <a href="mailto:support@webikon.sk">support@webikon.sk</a>
- * Version:     1.4.11
+ * Version:     1.4.12
  * Author:      Webikon (Ján Bočínec)
  * Author URI:  http://www.webikon.sk
  * Text Domain: wc-superfaktura
